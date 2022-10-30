@@ -73,16 +73,16 @@ function generatePassword() {
   }
 
   var hasLowerCase = confirm(
-    "Click OK if you woud like to user lower case charachters in your password."
+    "Click OK if you woud like to user lower case characters in your password."
   );
   var hasUpperCase = confirm(
-    "Click OK if you woud like to user upper case charachters in your password."
+    "Click OK if you woud like to user upper case characters in your password."
   );
   var hasSpecial = confirm(
-    "Click OK if you woud like to user special charachters in your password."
+    "Click OK if you woud like to user special characters in your password."
   );
   var hasNumbers = confirm(
-    "Click OK if you woud like to user numbers charachters in your password."
+    "Click OK if you woud like to user numbers characters in your password."
   );
 
   // Verify that at least one option was selcted
